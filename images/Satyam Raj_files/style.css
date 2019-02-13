@@ -1,0 +1,70 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url('images/black.jpg');
+}
+h1{
+  color: black;
+  position: relative;
+  font-size: 70px;
+  top: 200px;
+}
+h2{
+  font-size: 50px;
+}
+hr{
+  width: 100%;
+  border-color: none;
+  height: 0px;
+}
+.xspan{
+  font-size: 30px;
+  position:relative;
+  left: 750px;
+  bottom: 50px;
+  top: 50px;
+}
+.beyour{
+  color: white;
+  position: relative;
+  right: 900px;
+  bottom: 50px;
+  top: 50px;
+  font-size: 25px;
+}
+button{
+  background-color: #ff8484;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.top {
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+
+}
+
+.middle {
+  width: 100%;
+  height: 700px;
+  border: solid 0;
+}
+
+.bottom {
+  width: 100%;
+  height: 300px;
+  border: solid 0;
+}
+.pro{
+  text-decoration: underline;
+}
+.footer-link{
+  font-size: 50px;
+}
+.btn{
+  font-size: 35px;
+}

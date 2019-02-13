@@ -1,0 +1,150 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url('images/topp.jpg');
+  position: absolute;
+}
+@keyframes example {
+  0% {background-color: white;}
+  25% {background-color: yellow;}
+  50% {background-color: lightgreen;}
+  100% {background-color: skyblue;}
+}
+div{
+  animation-name:example;
+  animation-duration: 12s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+a{
+  color: hotpink;
+  text-decoration: none;
+}
+a:hover{
+  color: green;
+  text-decoration: underline;
+  shape-outside: circle();
+}
+
+.iimg-about{
+  border-radius: 300px;
+  position: relative;
+  right: 400px;
+
+}
+.about-para{
+   font-size: 25px;
+   position: relative;
+   bottom: 240px;
+   left: 75px;
+}
+.iimg-aim{
+  border-radius: 300px;
+  position: relative;
+  left: 300px;
+
+}
+.aim-para{
+  font-size: 25px;
+  position: relative;
+  bottom: 320px;
+  right: 200px;
+}
+
+
+h1 {
+  color: black;
+  font-size: 60px;
+  position: absolute;
+  left: 800px;
+  top: 300px;
+}
+.p-top{
+  font-size: 25px;
+  position: absolute;
+  left: 860px;
+  top:420px;
+}
+
+
+h2 {
+  font-size: 50px;
+
+}
+
+hr {
+  width: 100%;
+  border-color: none;
+  height: 0px;
+}
+
+.xspan {
+  font-size: 30px;
+  position: relative;
+  left: 750px;
+  bottom: 50px;
+  top: 50px;
+}
+
+.beyour {
+  color: white;
+  position: relative;
+  right: 900px;
+  bottom: 50px;
+  top: 50px;
+  font-size: 25px;
+}
+.button-top{
+  border-radius: 25px;
+  background-color: white;
+  color: hotpink;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  position:relative;
+  bottom: 750px;
+  right: 500px;
+
+}
+
+.button-middle {
+  border-radius: 25px;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+
+
+}
+
+.top {
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+}
+
+.middle {
+  width: 100%;
+  height: 700px;
+  border: solid 0;
+}
+
+.bottom {
+  width: 100%;
+  height: 300px;
+  border: solid 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.footer-link {
+  font-size: 50px;
+}
+
+.btn {
+  font-size: 28px;
+}
